@@ -26,4 +26,5 @@ vscode里若要用bash,要在settings.json里添加如下命令：
 1. attack settings: black-box(for sure), transfer-based attack or decision-based attack...
 2. application: face recognition? 
 3. generate method: GAN?
+
 以上是一些我自己最近的思路，大家最近去搜集一些自己感兴趣的对抗样本的应用方向，比如攻击人脸识别、NLP方向的等等都可以，最后我们综合一下，要尽快确定方向，有针对性的找论文了。
