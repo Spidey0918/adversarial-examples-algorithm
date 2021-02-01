@@ -14,7 +14,7 @@ paper1: `Efficient Decision-based Black-box Adversarial Attacks on Face Recognit
 
 攻击人脸识别的效果：主要分为Dodging attack和Impersonation attack两类。
 
-![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210201021813.png)
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210201105929.png)
 
 
 
