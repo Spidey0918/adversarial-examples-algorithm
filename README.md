@@ -22,7 +22,7 @@ paper1: `Efficient Decision-based Black-box Adversarial Attacks on Face Recognit
 
 # 2021/1/29
 
-Python foolbox package can help to generate AEs\
+Python foolbox package can help to generate AEs
 
 
 
@@ -53,12 +53,129 @@ laser attack 的问题：
 
 * 能否通过“光攻击”进行Impersonation attack，甚至是targeted attack
 * 能否解决上述”光攻击“的一些问题
+* GAN生成伪造人脸
 
 
 
 目前了解的人脸识别进攻的主要方向是：
 
 1. Makeup attack
-
 2. Face morphing attack
 3. Spoofing Face attack
+4. Presentation Attack(照片、屏幕视频、面具)
+
+
+
+# 2020/2/2
+
+活体检测方法：
+
+1. 配合式防伪
+   * 眨眼、摇头
+   * rPPG皮肤细微亮度变化
+     要求噪声小、环境光稳定，人脸静止
+   * 运动模式分析
+     检测人脸上光流。缺点：摄像头需固定、无法防御面具和视频回放
+   * 三维重建法
+
+![avatar]()
+
+2. 静默防伪
+   * 基于纹理分析(摩尔纹、真假人频域分析)
+   * 基于分类：高频图像特征+传统分类器
+   * 深度学习方法
+     * 基于深度图回归
+     * 朴素二分类
+     * 基于分块
+     * 基于辅助监督信号
+     * rPPG回归 +(深度图)
+     * Aurora Guard：手机屏幕光照可控变化(打不同颜色的光照)
+3. 伪造检测
+   * 检测用GAN生成的伪造人脸(Deep Fake Detection Challenge)
+4. 多光谱防伪(硬件防伪)
+5. 多模态防伪(多模态融合卷积神经网络)
+
+
+
+人脸防伪数据库：活体检测数据仍然很缺乏
+
+* 防伪数据增强
+* Replay虚拟生成
+* 照片虚拟生成
+* 小样本学习(Meta-Learning)
+
+![avatar]()
+
+
+
+人脸采集设备
+
+1. 可见光摄像头
+   分辨率最高、数据最丰富、模态最不稳定，受各种因素(尤其是光照)影响大，防伪性能较弱
+
+2. 近红外摄像头
+   接受器：只接受近红外分量(室内极少、白炽灯不包含)
+   发射器：主动近红外打光(不依赖环境光源)
+   **优点：分辨率较高(480p)、单摄像头性价比最高、模态稳定，几乎不受环境光源影响，夜间可用。隐式包含3D信息，防伪能力强。**
+
+   **缺陷：使用距离有要求，不能太远。数据需要设备专门采集，缺乏训练数据。**
+
+3. 深度摄像头
+   包含显式的三维信息，对防御平面媒体攻击及其有效。精度极低(高精度设备太贵太重)。对距离有严格要求，既不能太近也不能太远。采集非常困难，极其缺乏训练数据(万级)
+
+
+
+人脸防伪挑战
+
+1. 光照(侧光、逆光、暗光)
+2. 跨模态
+3. 姿态
+4. 未知攻击方式
+
+![avatar]()
+
+
+
+人脸防伪发展方向：
+
+* 软件
+  * 增强模型的泛化性：训练集和测试集场景经常是不一致的
+  * 小样本学习：快速应对新的攻击方式
+  * 数据增强：基于成像原理及图形学的虚拟生成
+  * 数据收集：成本更低假体及收集
+* 硬件
+  * 新的光谱：与皮肤材质有显著不同
+  * 新的主动光源
+
+---
+
+Lecture: `A Novel Attack Paradigm in the Deployment Stage：Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits`
+
+AML(Adversarial ML) --- GAN(Generative Adversarial Networks)
+
+AML:
+
+1. Backdoor Learning/Attack(Training stage)
+2. Weight Attack(Deployment stage)
+3. Adversarial Examples(Testing stage)
+
+AML:three attack paradigms
+
+![avatar]()
+
+
+
+**Weight Attack**
+
+* Physical fault injection
+* Row hammer attack: reading from the same address in memory can corrupt data in nearby addresses
+* Laser beam attack: using laser beam to flip the bits stored in the chip
+
+Our task: *changing the weights stored in the memory via bit flipping to achieve some malicious goals*
+
+
+
+# 2020/2/4~2020/2/9 
+
+美赛加油！
+
