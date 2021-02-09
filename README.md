@@ -78,7 +78,7 @@ laser attack 的问题：
      检测人脸上光流。缺点：摄像头需固定、无法防御面具和视频回放
    * 三维重建法
 
-![avatar]()
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210202121317.png)
 
 2. 静默防伪
    * 基于纹理分析(摩尔纹、真假人频域分析)
@@ -95,7 +95,7 @@ laser attack 的问题：
 4. 多光谱防伪(硬件防伪)
 5. 多模态防伪(多模态融合卷积神经网络)
 
-
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210202122938.png)
 
 人脸防伪数据库：活体检测数据仍然很缺乏
 
@@ -104,7 +104,7 @@ laser attack 的问题：
 * 照片虚拟生成
 * 小样本学习(Meta-Learning)
 
-![avatar]()
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210202123833.png)
 
 
 
@@ -132,7 +132,7 @@ laser attack 的问题：
 3. 姿态
 4. 未知攻击方式
 
-![avatar]()
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210202124309.png)
 
 
 
@@ -161,9 +161,9 @@ AML:
 
 AML:three attack paradigms
 
-![avatar]()
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210202152459.png)
 
-
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210202152257.png)
 
 **Weight Attack**
 
