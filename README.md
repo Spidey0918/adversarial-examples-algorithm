@@ -1,2 +1,1 @@
-﻿# adversarial-examples-algorithm
-paper1:
+﻿# adversarial-examples-algorith
