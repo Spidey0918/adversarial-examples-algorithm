@@ -7,6 +7,6 @@
 - face detection、face preprocessing, and face representation
 - face detection：多阶段、单阶段、基于锚点、无锚点、多任务风格、CPU 实时和面向问题的方法
 - face preprocessing：人脸对齐：基于标志点：坐标回归、热图回归、3D模型拟合
-                               无标志点
-                      正面化
+-                            ：无标志点
+-                   ：正面化
 - face representation：
