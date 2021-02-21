@@ -191,7 +191,7 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 
 利用POV(视觉暂留)通过可见光对人脸识别进行targeted和untargeted的进攻。主要通过构造了Perturbation frame和concealing frame对人脸进行照射来达到对抗样本的效果。
 
-![avatar]()
+![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210221165115.png)
 
 
 
