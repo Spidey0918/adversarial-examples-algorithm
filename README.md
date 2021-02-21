@@ -179,3 +179,29 @@ Our task: *changing the weights stored in the memory via bit flipping to achieve
 
 美赛加油！
 
+
+
+# 2020/2/21
+
+Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems in Physical World`
+
+
+
+### Main Idea
+
+利用POV(视觉暂留)通过可见光对人脸识别进行targeted和untargeted的进攻。主要通过构造了Perturbation frame和concealing frame对人脸进行照射来达到对抗样本的效果。
+
+![avatar]()
+
+
+
+### My Thoughts
+
+文中在分析了physical world attack和digital attack的差异，即在现实情况下的攻击，难以以上传一张对抗样本图片的方式完成进攻，而digital attack下的对抗样本图片的扰动都很细小，若是直接套用到physical world很容易收到摄像机分辨率影响或者受到图片裁剪等影响使得效果很差。而现实世界的对抗样本同样也应该满足不易被人发现的特质。
+
+其中attack FR using infrared确实达到了不被人眼所发现，但目前的camera如CMOS都配有infrared filter，这会直接影响到这类进攻。
+
+这篇文章提供给我的一个思路是寻找人眼的一些特殊现象，比如视觉暂留等，利用这些现象去制作一些人眼难以察觉但能被camera察觉到的对抗样本扰动。
+
+有个新想法是关于噪点的，能否通过某些手段在camera识别人脸时产生噪点从而影响识别。
+
