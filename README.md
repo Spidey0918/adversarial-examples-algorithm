@@ -16,4 +16,10 @@
 
 ## 2020.2.24
 ### paper3:Recover Canonical-View Faces in the Tild with Deep Neural Networks 
-
+从具有复杂变化集的人脸图像转换到规范视图
+- 鲁棒特征提取：小姿态和简单的照明变化
+- 人脸归一化：大姿态和不同照明下的人脸变化
+过程：
+- 判断图像是否是正面拍摄：结合矩阵的秩和对称性
+- 面部修复：最小化损失误差
+数据集：LFW
