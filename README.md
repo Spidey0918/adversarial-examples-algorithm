@@ -193,7 +193,7 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 
 ![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210221165115.png)
 
-
+![avatar]()
 
 ### My Thoughts
 
@@ -204,4 +204,14 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 这篇文章提供给我的一个思路是寻找人眼的一些特殊现象，比如视觉暂留等，利用这些现象去制作一些人眼难以察觉但能被camera察觉到的对抗样本扰动。
 
 有个新想法是关于噪点的，能否通过某些手段在camera识别人脸时产生噪点从而影响识别。
+
+从红外进攻引发的想法，既然红外进攻虽然不易被人眼识别，但容易被camera滤去，那我们可以尝试结合这篇文章的思路，不将目标人脸投射到真人脸上，而是通过infrared攻击网络计算出的位置投上高频闪烁的可见光以通过视觉暂留现象让人眼难以察觉的同时被机器接受到。
+
+---------
+
+针对中期汇报，目前想法是用可见光/红外进行对抗样本攻击。
+
+- 人脸识别网络
+- AdvHat
+- 光线投射区域的生成网络
 
