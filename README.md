@@ -11,3 +11,9 @@
 --------------------：正面化       
 - face representation：网络架构：通用架构、专业架构  
 ---------------------：培训监督：分类、特征嵌入、混合
+
+---
+
+## 2020.2.24
+### paper3:Recover Canonical-View Faces in the Tild with Deep Neural Networks 
+
