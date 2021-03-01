@@ -51,7 +51,9 @@ vscode里若要用bash,要在settings.json里添加如下命令：
 1. 复现`Adversarial Attack on Facial Recognition using Visible Light`中的红外攻击和激光攻击(3月任务)
    - IRHAT的制作
     ![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/main/images/QQ%E5%9B%BE%E7%89%8720210301133354.png)
-   ![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/main/images/QQ%E5%9B%BE%E7%89%8720210301133333.png)
+   
+    ![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/main/images/QQ%E5%9B%BE%E7%89%8720210301133333.png)
+    
    
    
    - 投射区域网络的改进
