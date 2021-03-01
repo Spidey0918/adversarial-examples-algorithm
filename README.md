@@ -217,17 +217,6 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 
 
 
-# 2020/2/22
-
-根据昨天开会讨论，目前分为两个不同方向：光攻击方向，贴片攻击方向
-
-- 光攻击
-  组长：李浩川
-  成员：骆素蓬、沐方晗
-- 贴片攻击
-  组长：宋炎
-  成员：朱梓轩、石暄、韩宝恩
-
 
 
 ### 光攻击方向安排
@@ -236,8 +225,8 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 
    - IRHAT的制作
 
-     ![avatar]()
-     ![avatar]()
+     ![avatar](README.assets/QQ%E5%9B%BE%E7%89%8720210301133354.png)
+     ![avatar](README.assets/QQ%E5%9B%BE%E7%89%8720210301133333.png)
 
    - 投射区域网络的改进
      Github-link: https://github.com/loumor/Adversarial-Attack-LPO-
