@@ -1,4 +1,5 @@
 ﻿# adversarial-examples-algorithm
+
 ## `2020/12/22`
 ---
 **大家要在自己电脑上下好Git，没装好环境的尽快装好，寒假我们工作继续！**
@@ -23,6 +24,7 @@ vscode里若要用bash,要在settings.json里添加如下命令：
 ---
 ## `2020/1/27`
 **对抗样本方向的确定**
+
 1. attack settings: black-box(for sure), transfer-based attack or decision-based attack...
 2. application: face recognition? 
 3. generate method: GAN?
@@ -41,3 +43,30 @@ vscode里若要用bash,要在settings.json里添加如下命令：
 - 贴片攻击
   组长：石暄
   组员：韩宝恩、朱梓轩、宋炎
+
+
+
+### 光攻击计划
+
+1. 复现`Adversarial Attack on Facial Recognition using Visible Light`中的红外攻击和激光攻击(3月任务)
+   - IRHAT的制作
+    ![avatar](README.assets/QQ%E5%9B%BE%E7%89%8720210301133354.png)
+   ![avatar](README.assets/QQ%E5%9B%BE%E7%89%8720210301133333.png)
+   
+   
+   - 投射区域网络的改进
+     Github-link: https://github.com/loumor/Adversarial-Attack-LPO-
+   
+2. POV、噪点等元素的运用，和backdoor攻击结合
+
+
+
+### 贴片攻击计划
+
+> 3月1日至3月14日左右，了解贴片疗法的基础知识；
+
+> 3月15日至3月28日左右，制造“贴纸”
+
+> 3月29日以后，应用“贴纸”，实现对抗。
+
+> 详细计划根据具体进度情况进行调整。
