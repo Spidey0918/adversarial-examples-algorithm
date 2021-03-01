@@ -225,8 +225,8 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 
    - IRHAT的制作
 
-     ![avatar](README.assets/QQ%E5%9B%BE%E7%89%8720210301133354.png)
-     ![avatar](README.assets/QQ%E5%9B%BE%E7%89%8720210301133333.png)
+     ![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210301133354.png)
+     ![avatar](https://github.com/Spidey0918/adversarial-examples-algorithm/blob/lhc/image/QQ%E5%9B%BE%E7%89%8720210301133333.png)
 
    - 投射区域网络的改进
      Github-link: https://github.com/loumor/Adversarial-Attack-LPO-
