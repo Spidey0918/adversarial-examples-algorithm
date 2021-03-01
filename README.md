@@ -205,7 +205,7 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 
 有个新想法是关于噪点的，能否通过某些手段在camera识别人脸时产生噪点从而影响识别。
 
-从红外进攻引发的想法，既然红外进攻虽然不易被人眼识别，但容易被camera滤去，那我们可以尝试结合这篇文章的思路，不将目标人脸投射到真人脸上，而是通过infrared攻击网络计算出的位置投上高频闪烁的可见光以通过视觉暂留现象让人眼难以察觉的同时被机器接受到。
+从红外进攻引发的想法，既然红外进攻虽然不易被人眼识别，但容易被camera滤去，那我们可以尝试结合这篇文章的思路，不将目标人脸投射到真人脸上，而是通过infrared攻击网络计算出的位置投上高频闪烁..的可见光以通过视觉暂留现象让人眼难以察觉的同时被机器接受到。
 
 ---------
 
@@ -215,3 +215,31 @@ Paper3:`VLA: A Practical Visible Light-based Attack on Face Recognition Systems 
 - AdvHat
 - 光线投射区域的生成网络
 
+
+
+# 2020/2/22
+
+根据昨天开会讨论，目前分为两个不同方向：光攻击方向，贴片攻击方向
+
+- 光攻击
+  组长：李浩川
+  成员：骆素蓬、沐方晗
+- 贴片攻击
+  组长：宋炎
+  成员：朱梓轩、石暄、韩宝恩
+
+
+
+### 光攻击方向安排
+
+1. 复现`Adversarial Attack on Facial Recognition using Visible Light`中的红外攻击和激光攻击
+
+   - IRHAT的制作
+
+     ![avatar]()
+     ![avatar]()
+
+   - 投射区域网络的改进
+     Github-link: https://github.com/loumor/Adversarial-Attack-LPO-
+
+2. POV、噪点等元素的运用，和backdoor攻击结合
