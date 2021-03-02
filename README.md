@@ -53,9 +53,9 @@ vscode里若要用bash,要在settings.json里添加如下命令：
    - IRHAT制作
    
    - 投射区域网络的改进
-  Github-link: https://github.com/loumor/Adversarial-Attack-LPO-
+    Github-link: https://github.com/loumor/Adversarial-Attack-LPO-
    
-2. POV、噪点等元素的运用，和backdoor攻击结合
+2. POV、噪点、Rolling Shutter（果冻效应）等元素的运用，和backdoor攻击结合
 
 
 
